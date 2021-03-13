@@ -74,7 +74,7 @@ def checkifwon():
         b5.config(bg="#3EDF10")
         b7.config(bg="#3EDF10")
         winner=True
-        messagebox.showinfo("Tic Tac Toe"," O wins")
+        messagebox.showinfo("Tic Tac Toe"," X wins")
         disable_all()
     # O
     if b1["text"] == "O" and b2["text"]=="O" and b3["text"]=="O":
